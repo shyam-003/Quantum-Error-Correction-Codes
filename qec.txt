@@ -1,0 +1,50 @@
+
+Quantum Error Correction
+===================================================
+
+    - QEC encodes 1 logical qubit into many physical qubits
+    - detect error via syndromes, using ancilla qubits
+    - correct error without measuring the quantum state
+
+
+Types of Quantum Errors
+===================================================
+
+    - Bit flip      =>      X
+    - Phase flip    =>      Z
+    - Both          =>      Y = iXZ
+
+
+Error Correction Codes
+===================================================
+
+1. Bit-flip code(3 qubits)
+--------------------------------
+    - ∣ψ⟩ = α∣0⟩+β∣1⟩
+    
+    - encode it into logical qubit
+        - ∣0⟩   →       ∣000⟩
+        - ∣1⟩   →       ∣111⟩
+    
+    - ∣ψ⟩ logical
+        ∣ψ_L​⟩=α∣000⟩+β∣111⟩
+
+
+
+2. Phase-flip code(3 qubit)
+--------------------------------
+
+    - Hadamard  →   Bit-flip    →   Hadamard back
+
+
+
+3. Shor code (9 qubit)
+--------------------------------
+    - Corrects both X and Z errors
+
+
+4. Steane Code
+5. Surface Code
+
+
+
