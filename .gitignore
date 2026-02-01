@@ -1,3 +1,8 @@
 
 .vscode
 .vscode/
+
+.codes
+codes/
+
+.DS_Store
